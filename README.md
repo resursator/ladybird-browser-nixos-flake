@@ -1,8 +1,6 @@
 # Ladybird Alpha for NixOS
 
-An unofficial Nix Flake providing a custom build of the [Ladybird](https://ladybird.org/) web browser.
-
-Ladybird is built from source with custom dependency overrides, upstream patches and Vulkan hardware acceleration support.
+An unofficial Nix Flake packaging of the [Ladybird](https://github.com/LadybirdBrowser/ladybird) web browser for NixOS, featuring a custom FFmpeg build with Vulkan hardware acceleration and additional dependency patches.
 
 ## Features
 
@@ -144,7 +142,9 @@ nix flake lock --override-input nixpkgs \
 
 ## Disclaimer
 
-This is an unofficial community build of Ladybird. It is not affiliated with, endorsed by or officially supported by the Ladybird project.
+This repository provides an unofficial Nix packaging of [Ladybird](https://github.com/LadybirdBrowser/ladybird).
+
+It is not affiliated with, endorsed by or officially supported by the Ladybird project.
 
 Ladybird is experimental software under active development. Build compatibility and functionality may change as upstream sources and dependencies evolve.
 
